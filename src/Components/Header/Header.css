@@ -1,0 +1,32 @@
+.Header{
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Logo{
+    width: 100px;
+}
+
+.Navegation{
+    display: flex;
+    align-items: center;
+}
+
+.SearchBar{
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.Buscar{
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
